@@ -1,0 +1,6 @@
+ python batch_portraits_v2.py `
+   --csv actors.csv `
+   --style Keanu_Reeves-Chinisorie-cropped.png `
+   --out out `
+   --size 1024 `
+   --format png

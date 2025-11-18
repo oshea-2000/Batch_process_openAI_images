@@ -1,0 +1,46 @@
+# Prompt iv been using in the pythin script -  It came with the script then i tweaked it.
+
+def make_prompt(person_name: str) -> str:
+    # You can tweak this to taste.
+    return f"""
+Create a clean, blue-ink portrait in the exact style of the provided reference image:
+- single-color ink drawing and bold contour lines
+- clean white background
+- Slightly Imperfect, Human
+Subject: {person_name}.
+Clothes: Usual Clothing associated with this person.  Do NOT copy the clothes from the Referance Photo. 
+Expression: Usual expression associated with this persons charater. keep the face CLEAN from marks.
+Framing: FACE ONLY! NO SHOULDERS, Tight crop on the face, centered. 1:1 square composition with generous WHITE SPACE ABOVE THE HEAD.
+Important: Use the first input image only as a STYLE REFERENCE. Do NOT copy that person's identity or their features or clothes.
+Keep everything minimal and graphic;  keep the face CLEAN from marks.
+"""
+# avoid shading that looks photographic.
+# Shoulders / Bust
+
+
+
+________________________________________________________________________________________________
+
+
+# Other simplier prompt i was using in chatgpt online.
+
+I would like to make portrait in the same style as this portrait reference image. 
+the subject will be {person_name}.
+Make sure there is white space above the subjects head. 1:1 square format.
+avoid shading that looks photographic.
+pose and facial expresion should be iconic to {person_name} at there most popular.
+
+
+
+
+_____________________________________________________________________
+
+# Test prompt 29th august - this better suck or im gonna have to redo the lat 50...
+
+I would like to make a portrait in the same style as this portrait reference image.
+The subject will be {person_name}. Make sure there is white space above the subject's head.
+1:1 square format. 
+Depict {person_name} at their most famous age, with their most popular known and recognizable face.
+Change the clothes to suit {person_name} own style.
+
+
